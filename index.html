@@ -3,26 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Social-Media-Betreuung für Handwerk und Mittelstand | Chatoria</title>
-<meta name="description" content="Chatoria baut Instagram- und Facebook-Kanäle für Betriebe auf: Redaktionsplan, Produktion, Anzeigen und ein Monatsbericht, der Anfragen zeigt statt Likes.">
+
+<!-- Sicherheitsrichtlinie: die Seite laedt ausschliesslich eigene Dateien.
+     Wird spaeter ein externer Inhalt eingebunden (Instagram, Karte), muss
+     hier frame-src um die jeweilige Domain ergaenzt werden — sonst blockt
+     die Richtlinie ihn auch nach erteilter Einwilligung.
+     Hinweis: frame-ancestors und HSTS wirken nur als HTTP-Header; die
+     kann GitHub Pages nicht setzen. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+
+<title>Social Media für Handwerk und Mittelstand | Chatoria</title>
+<meta name="description" content="Chatoria betreut Instagram- und Facebook-Kanäle für Betriebe: Planung, Produktion, Anzeigen. Feste Ansprechperson, monatlich kündbar nach der Startphase.">
 <link rel="canonical" href="https://www.chatoria.de/">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="theme-color" content="#F4F2ED">
-<meta name="author" content="Chatoria">
+<meta name="theme-color" content="#F7F6F3">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="de_DE">
 <meta property="og:site_name" content="Chatoria">
-<meta property="og:title" content="Ihr Betrieb liefert gute Arbeit ab. Online sieht das gerade niemand.">
-<meta property="og:description" content="Social-Media-Betreuung für Handwerk und Mittelstand. Feste Ansprechperson, Freigabe vor jedem Beitrag, monatlich kündbar nach der Startphase.">
+<meta property="og:title" content="Ihre Arbeit ist gut. Online sieht das gerade niemand.">
+<meta property="og:description" content="Social-Media-Betreuung für Handwerk und Mittelstand. Feste Ansprechperson, Freigabe vor jedem Beitrag.">
 <meta property="og:url" content="https://www.chatoria.de/">
 <meta property="og:image" content="https://www.chatoria.de/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
 
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2314160F'/%3E%3Cg fill='%236FD40C' transform='translate(50 50) scale(.82) translate(-50 -50)'%3E%3Cpath d='M67.61 6.42A47 47 0 0 1 81.45 84.93L71.75 74.15A32.5 32.5 0 0 0 62.17 19.87Z'/%3E%3Cpath d='M72.87 85.22A42 42 0 0 1 8.41 55.85L17.82 54.52A32.5 32.5 0 0 0 67.7 77.26Z'/%3E%3Cpath d='M3.01 49.18A47 47 0 0 1 60.57 4.2L57.31 18.33A32.5 32.5 0 0 0 17.5 49.43Z'/%3E%3C/g%3E%3C/svg%3E">
-<link rel="preload" href="assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/schibsted-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/css/style.css?v=20260821">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23101210'/%3E%3Cg fill='%236FD40C' transform='translate(50 50) scale(.82) translate(-50 -50)'%3E%3Cpath d='M67.61 6.42A47 47 0 0 1 81.45 84.93L71.75 74.15A32.5 32.5 0 0 0 62.17 19.87Z'/%3E%3Cpath d='M72.87 85.22A42 42 0 0 1 8.41 55.85L17.82 54.52A32.5 32.5 0 0 0 67.7 77.26Z'/%3E%3Cpath d='M3.01 49.18A47 47 0 0 1 60.57 4.2L57.31 18.33A32.5 32.5 0 0 0 17.5 49.43Z'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/instrument-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css?v=20260822">
 
 <script type="application/ld+json">
 {
@@ -32,36 +41,18 @@
       "@type": "ProfessionalService",
       "@id": "https://www.chatoria.de/#org",
       "name": "Chatoria",
-      "description": "Agentur für Social-Media-Betreuung: Aufbau und Betreuung von Instagram- und Facebook-Kanälen, Social Media Advertising sowie Positionierung und Strategie für Handwerksbetriebe und mittelständische Unternehmen in Deutschland.",
+      "description": "Agentur für Social-Media-Betreuung: Aufbau und Betreuung von Instagram- und Facebook-Kanälen, Werbeanzeigen sowie Positionierung für Handwerksbetriebe und mittelständische Unternehmen in Deutschland.",
       "url": "https://www.chatoria.de/",
       "email": "kontakt@chatoria.de",
       "telephone": "+49-000-0000000",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Musterstraße 1",
-        "postalCode": "00000",
-        "addressLocality": "Musterstadt",
-        "addressCountry": "DE"
-      },
+      "address": { "@type": "PostalAddress", "streetAddress": "Musterstraße 1", "postalCode": "00000", "addressLocality": "Musterstadt", "addressCountry": "DE" },
       "areaServed": { "@type": "Country", "name": "Deutschland" },
-      "knowsAbout": [
-        "Social Media Management",
-        "Social Media Advertising",
-        "Instagram für Handwerksbetriebe",
-        "Facebook-Werbeanzeigen",
-        "Content-Planung",
-        "Redaktionsplan",
-        "Positionierung",
-        "Leadgenerierung",
-        "Mitarbeitergewinnung über Social Media"
-      ],
       "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Leistungen",
+        "@type": "OfferCatalog", "name": "Leistungen",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Social Media Management", "description": "Betreuung und professioneller Aufbau der Kanäle inklusive Content-Planung und Strategie." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Social Media Advertising", "description": "Gezielte Werbekampagnen auf Instagram und Facebook für Reichweite, Anfragen und neue Kunden." } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wachstum & Strategie", "description": "Individuelle Strategien zur Positionierung, Kundengewinnung und nachhaltigen Steigerung der Online-Präsenz." } }
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Social Media Management", "description": "Aufbau und Betreuung der Kanäle inklusive Content-Planung und Strategie." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Social Media Advertising", "description": "Werbekampagnen auf Instagram und Facebook für Reichweite, Anfragen und neue Kunden." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wachstum & Strategie", "description": "Positionierung, Kundengewinnung und nachhaltige Steigerung der Online-Präsenz." } }
         ]
       }
     },
@@ -69,12 +60,10 @@
       "@type": "FAQPage",
       "@id": "https://www.chatoria.de/#faq",
       "mainEntity": [
-        { "@type": "Question", "name": "Was kostet das ungefähr?", "acceptedAnswer": { "@type": "Answer", "text": "Was ein sinnvolles Monatsbudget ist, hängt vom Einzugsgebiet ab – ein Betrieb mit fünfzehn Kilometer Radius braucht ein anderes Budget als einer mit achtzig. Wir nennen die Spanne im Erstgespräch, nicht auf der Website. Getrennt davon läuft Ihr Werbebudget: Es geht vollständig an Meta und wird von uns nicht angerechnet." } },
-        { "@type": "Question", "name": "Wie lange sind wir gebunden?", "acceptedAnswer": { "@type": "Answer", "text": "Es gibt eine Startphase – lang genug, dass Audit, Plan und die ersten Produktionen aufgehen. Danach ist monatlich zum Monatsende kündbar. Eine 24-Monats-Bindung gibt es bei uns nicht." } },
-        { "@type": "Question", "name": "Wer hat Zugriff auf unsere Konten?", "acceptedAnswer": { "@type": "Answer", "text": "Sie geben uns über den Meta Business Manager eine eigene Rolle in Ihrem Konto. Passwörter werden nicht geteilt. Werbekonto und Kanäle laufen auf Ihren Namen – Sie bleiben Eigentümer, auch nach Vertragsende. Den Zugang entziehen Sie jederzeit selbst, ohne uns zu fragen." } },
-        { "@type": "Question", "name": "Wie viel Zeit kostet uns das?", "acceptedAnswer": { "@type": "Answer", "text": "Einmalig einen halben Tag vor Ort für Fotos und Videos. Danach rund zehn Minuten pro Woche für Freigaben und einen Termin im Monat für den Bericht. Alles andere liegt bei uns." } },
-        { "@type": "Question", "name": "Wann sehen wir Ergebnisse?", "acceptedAnswer": { "@type": "Answer", "text": "Vor Woche 5 gibt es keine belastbaren Zahlen. Wer Ihnen in Woche 2 Ergebnisse verspricht, misst etwas anderes – zum Beispiel Reichweite, die niemand angefragt hat. Ab dem zweiten Monatsbericht lässt sich ein Verlauf lesen." } },
-        { "@type": "Question", "name": "Was passiert mit unseren Daten?", "acceptedAnswer": { "@type": "Answer", "text": "Wir schließen einen Auftragsverarbeitungsvertrag nach Art. 28 DSGVO, bevor wir das erste Mal auf ein Konto zugreifen. Ihre Inhalte und Zugänge werden ausschließlich für Ihr Konto verwendet. Diese Website selbst lädt keine externen Ressourcen und setzt keine Cookies." } }
+        { "@type": "Question", "name": "Was kostet das?", "acceptedAnswer": { "@type": "Answer", "text": "Das hängt vom Einzugsgebiet ab. Die Spanne nennen wir im Erstgespräch. Ihr Werbebudget geht vollständig an Meta und wird von uns nicht angerechnet." } },
+        { "@type": "Question", "name": "Wie lange sind wir gebunden?", "acceptedAnswer": { "@type": "Answer", "text": "Nach der Startphase monatlich kündbar zum Monatsende. Eine 24-Monats-Bindung gibt es nicht." } },
+        { "@type": "Question", "name": "Wie viel Zeit kostet uns das?", "acceptedAnswer": { "@type": "Answer", "text": "Einmalig ein halber Tag vor Ort, danach rund zehn Minuten pro Woche für Freigaben und ein Termin im Monat." } },
+        { "@type": "Question", "name": "Wer hat Zugriff auf unsere Konten?", "acceptedAnswer": { "@type": "Answer", "text": "Wir bekommen eine eigene Rolle im Meta Business Manager. Passwörter werden nicht geteilt, die Konten laufen auf Ihren Namen." } }
       ]
     }
   ]
@@ -82,623 +71,235 @@
 </script>
 </head>
 <body>
-<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
 
-<!-- Kolumnentitel: keine Menuezeile, sondern der laufende Titel wie im Magazin -->
-<div class="kolumne" id="kolumne">
-  <div class="schiff kolumne__innen">
-    <p class="kolumne__titel" id="kolumnentitel" aria-hidden="true"><span>I — Aufmacher</span></p>
-    <div class="kolumne__rechts">
-      <button type="button" class="link" id="verzeichnis-auf" aria-haspopup="dialog">Inhalt</button>
-      <a class="link" href="#erstgespraech">Erstgespräch</a>
-    </div>
-    <div class="kolumne__balken" id="fortschritt"></div>
-    <p class="sr-only" id="fortschritt-text" aria-live="off">Lesefortschritt</p>
-  </div>
-</div>
-
-<dialog class="verzeichnis" id="verzeichnis" aria-label="Inhaltsverzeichnis">
-  <div class="schiff verzeichnis__innen">
-    <div class="verzeichnis__kopf">
-      <h2 class="display" style="font-size:clamp(1.8rem,4vw,3rem)">Inhalt</h2>
-      <button type="button" class="verzeichnis__zu link" id="verzeichnis-zu" aria-label="Verzeichnis schließen">Schließen</button>
-    </div>
-    <ul class="verzeichnis__liste">
-      <li><a href="#aufmacher"><span class="verzeichnis__nr">I</span><span><span class="verzeichnis__titel">Aufmacher</span><br><span class="meta">Worum es geht, in vier Zeilen.</span></span></a></li>
-      <li><a href="#befund"><span class="verzeichnis__nr">II</span><span><span class="verzeichnis__titel">Der Befund</span><br><span class="meta">Wie Anfragen heute entstehen und woran es in den meisten Betrieben hängt.</span></span></a></li>
-      <li><a href="#leistungen"><span class="verzeichnis__nr">III</span><span><span class="verzeichnis__titel">Leistungen</span><br><span class="meta">Social Media Management, Social Media Advertising, Wachstum &amp; Strategie.</span></span></a></li>
-      <li><a href="#ablauf"><span class="verzeichnis__nr">IV</span><span><span class="verzeichnis__titel">Ablauf</span><br><span class="meta">Woche 0 bis monatlich. Und wie viele Minuten davon bei Ihnen liegen.</span></span></a></li>
-      <li><a href="#belege"><span class="verzeichnis__nr">V</span><span><span class="verzeichnis__titel">Belege</span><br><span class="meta">Betrieb, Branche, bezogene Leistung, Zeitraum. Und woran wir uns messen lassen.</span></span></a></li>
-      <li><a href="#klartext"><span class="verzeichnis__nr">VI</span><span><span class="verzeichnis__titel">Klartext</span><br><span class="meta">Das bekommen Sie. Das bekommen Sie nicht.</span></span></a></li>
-      <li><a href="#fragen"><span class="verzeichnis__nr">VII</span><span><span class="verzeichnis__titel">Fragen</span><br><span class="meta">Preis, Laufzeit, Zuständigkeit, Kündigung.</span></span></a></li>
-      <li><a href="#team"><span class="verzeichnis__nr">VIII</span><span><span class="verzeichnis__titel">Wer dahintersteht</span><br><span class="meta">Menschen, Rahmen, Datenverarbeitung.</span></span></a></li>
-      <li><a href="#erstgespraech"><span class="verzeichnis__nr">IX</span><span><span class="verzeichnis__titel">Erstgespräch</span><br><span class="meta">Zwanzig Minuten, kostenlos, kein Verkaufsgespräch.</span></span></a></li>
-    </ul>
-  </div>
-</dialog>
-
-<main id="inhalt">
-
-<!-- ========== I — Titelkopf und Aufmacher ========== -->
-<header class="kopf schiff" id="titelkopf">
-  <div class="zeitungskopf">
-    <p class="wortmarke">Chatoria<span class="sr-only">, Agentur für Social Media in Deutschland. Startseite.</span></p>
-    <p class="zeitungskopf__zeile">Agentur für Social Media · B2B · Deutschland</p>
-  </div>
-
-  <div class="aufmacher raster beobachten" id="aufmacher">
-    <div class="aufmacher__titel">
-      <h1>
-        <span class="zeile"><span style="--i:0">Ihr Betrieb liefert</span></span>
-        <span class="zeile"><span style="--i:1">gute&nbsp;Arbeit ab. Online</span></span>
-        <span class="zeile"><span style="--i:2">sieht das gerade <span class="marker" id="marker">niemand</span>.</span></span>
-      </h1>
-    </div>
-    <div class="aufmacher__seite">
-      <p class="vorspann"><span class="initial" aria-hidden="true">W</span><span class="sr-only">W</span>ir bauen Social-Media-Kanäle für Handwerk und Mittelstand auf, schalten Anzeigen, die Anfragen bringen, und zeigen jeden Monat, was gewirkt hat. Feste Ansprechperson, keine Ticketnummer.</p>
-      <div class="aufmacher__kontakt">
-        <p class="label">Direkt erreichbar</p>
-        <a class="link link--gross" href="tel:+490000000000">+49 ⟨000⟩ ⟨0000000⟩</a>
-        <a class="link link--gross" href="mailto:kontakt@chatoria.de">kontakt@chatoria.de</a>
-        <p class="meta" style="margin-top:8px">Montag bis Freitag, 8 bis 17 Uhr</p>
-        <p style="margin-top:24px"><a class="link" href="#erstgespraech"><strong>Erstgespräch vereinbaren →</strong></a></p>
-      </div>
-    </div>
-    <div class="aufmacher__leer" aria-hidden="true"></div>
+<header class="breit">
+  <div class="kopfleiste">
+    <a class="logo" href="#inhalt" aria-label="Chatoria, Startseite">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M67.61 6.42A47 47 0 0 1 81.45 84.93L71.75 74.15A32.5 32.5 0 0 0 62.17 19.87Z"/>
+        <path d="M72.87 85.22A42 42 0 0 1 8.41 55.85L17.82 54.52A32.5 32.5 0 0 0 67.7 77.26Z"/>
+        <path d="M3.01 49.18A47 47 0 0 1 60.57 4.2L57.31 18.33A32.5 32.5 0 0 0 17.5 49.43Z"/>
+      </svg>
+      <span>Chatoria</span>
+    </a>
+    <p class="klein">Social Media für Handwerk und Mittelstand<br>
+      <a class="link" href="tel:+490000000000">+49 ⟨000⟩ ⟨0000000⟩</a></p>
   </div>
 </header>
 
-<!-- ========== II — Der Befund ========== -->
-<section class="abschnitt schiff beobachten" id="befund" data-kolumne="II — Der Befund" aria-labelledby="befund-titel">
-  <div class="raster">
-    <div class="kopfmarke">
-      <div class="stufe"><i></i><i></i><b></b></div>
-      <p class="kicker">II — Der Befund</p>
-    </div>
-    <div class="befund__paar"><div class="befund__text">
-      <h2 id="befund-titel">Zwischen Empfehlung und Auftrag liegt heute ein Blick aufs Handy.</h2>
-    </div></div>
+<main id="inhalt">
 
-    <div class="befund__paar tritt-ein" style="margin-top:24px">
-      <aside class="befund__notiz">Die Empfehlung bringt den Namen. Das Handy entscheidet, ob daraus ein Anruf wird.</aside>
-      <div class="befund__text fliess">
-        <p>Eine Empfehlung ist immer noch der beste Weg zu einem neuen Auftrag. Nur endet sie nicht mehr beim Anruf. Wer Ihren Namen hört, tippt ihn ein – und sieht, was Google, Instagram und Facebook über Sie ausgeben. Diese zwei Minuten entscheiden mit, ob angerufen wird. Sie finden nicht auf Ihrer Website statt, sondern dort, wo ohnehin schon gescrollt wird.</p>
-      </div>
-      <div class="befund__rand" aria-hidden="true"></div>
+  <!-- Aufmacher: linksbündig, kein zentrierter Hero -->
+  <section class="breit aufmacher">
+    <h1>Ihre Arbeit ist gut. Online sieht das gerade niemand.</h1>
+    <p class="gross">Wir bauen Ihre Instagram- und Facebook-Kanäle auf, schalten Anzeigen und melden jeden Monat, was Anfragen gebracht hat.</p>
+    <div class="aufmacher__zeile">
+      <a class="knopf" href="#kontakt">Erstgespräch vereinbaren</a>
+      <p class="klein">20 Minuten, kostenlos, kein Verkaufsgespräch.</p>
     </div>
+  </section>
 
-    <div class="befund__paar tritt-ein">
-      <aside class="befund__notiz">Kein Profil ist neutral. Ein totes Profil ist ein Einwand.</aside>
-      <div class="befund__text fliess">
-        <p>Ein Kanal, auf dem seit acht Monaten nichts passiert ist, beantwortet diese Frage falsch. Er sagt nicht „keine Zeit“, er sagt „hier ist niemand mehr“. Ein leeres Profil ist unauffällig. Ein totes Profil ist ein Argument gegen Sie – und es steht direkt neben Ihrem Namen.</p>
-      </div>
-      <div class="befund__rand" aria-hidden="true"></div>
-    </div>
+  <!-- Leistungen: keine Karten, drei breite Zeilen -->
+  <section class="breit block" id="leistungen" aria-labelledby="l-titel">
+    <div class="kopfgruppe kopfgruppe--mittel"><p class="marke">Was wir machen</p>
+    <h2 id="l-titel">Drei Leistungen, einzeln oder zusammen.</h2>
 
-    <div class="befund__paar">
-      <div class="befund__text fliess">
-        <p>Reichweite ist deshalb die falsche erste Frage. Ein Beitrag, der weit außerhalb Ihres Einzugsgebiets gesehen wird, hat Ihnen nichts gebracht außer einer Zahl im Bericht. Was zählt, ist die Anfrage: Anruf, Nachricht, ausgefülltes Formular. Alles davor ist Zwischenstand, kein Ergebnis.</p>
-      </div>
-      <div class="befund__rand" aria-hidden="true"></div>
     </div>
-
-    <div class="befund__paar tritt-ein">
-      <aside class="befund__notiz">Material kommt aus dem Betrieb. Alles andere ist unsere Arbeit.</aside>
-      <div class="befund__text fliess">
-        <p>Was ein Betrieb selbst leisten kann, ist genau der Teil, den nur er leisten kann: Zugang zur Baustelle, zur Werkstatt, zum fertigen Ergebnis. Fünf Minuten Video vom Einbau, ein kurzes Telefonat, eine fachliche Korrektur, wenn wir etwas falsch benennen. Was er nicht nebenbei leisten kann, ist der Rest – Planung, Schnitt, Text, Veröffentlichung, Anzeigenkonto, Auswertung.</p>
-        <p>Mehr ist der Befund nicht. Kein Trend, keine Geheimformel. Nur die Frage, was jemand sieht, der Sie gerade zum ersten Mal nachschlägt.</p>
-      </div>
-      <div class="befund__rand" aria-hidden="true"></div>
-    </div>
-
-    <!-- Selbstcheck -->
-    <div class="check">
-      <h2 style="font-size:clamp(1.5rem,3vw,2.2rem)">Wo stehen Sie gerade?</h2>
-      <p class="meta" style="margin-top:8px;max-width:52ch">Sechs Aussagen. Kreuzen Sie an, was auf Ihren Betrieb zutrifft – oder lesen Sie sie einfach als Liste.</p>
-      <ul class="check__liste" id="check">
-        <li><label class="check__zeile"><input type="checkbox"><span class="check__box" aria-hidden="true"></span><span>Unser letzter Beitrag ist älter als vier Wochen.</span></label></li>
-        <li><label class="check__zeile"><input type="checkbox"><span class="check__box" aria-hidden="true"></span><span>Wir wissen nicht, wie viele Anfragen im letzten Monat über Instagram oder Facebook kamen.</span></label></li>
-        <li><label class="check__zeile"><input type="checkbox"><span class="check__box" aria-hidden="true"></span><span>Fotos und Videos entstehen zufällig, wenn jemand daran denkt.</span></label></li>
-        <li><label class="check__zeile"><input type="checkbox"><span class="check__box" aria-hidden="true"></span><span>Wir haben schon einmal Geld für Anzeigen ausgegeben und nie erfahren, was dabei herauskam.</span></label></li>
-        <li><label class="check__zeile"><input type="checkbox"><span class="check__box" aria-hidden="true"></span><span>Für die Kanäle ist bei uns jemand zuständig, der eigentlich etwas anderes zu tun hat.</span></label></li>
-        <li><label class="check__zeile"><input type="checkbox"><span class="check__box" aria-hidden="true"></span><span>Wenn uns jemand nachschlägt, wüssten wir nicht genau, was er findet.</span></label></li>
-      </ul>
-      <p class="check__ergebnis" id="check-ergebnis" aria-live="polite">Noch nichts angekreuzt. Die Liste allein ist schon eine Bestandsaufnahme.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ========== III — Leistungen ========== -->
-<section class="schiff beobachten" id="leistungen" data-kolumne="III — Leistungen" aria-labelledby="leistungen-titel">
-  <div class="raster" style="padding-top:72px">
-    <div class="kopfmarke">
-      <div class="stufe"><i></i><i></i><b></b></div>
-      <p class="kicker">III — Leistungen</p>
-    </div>
-    <div class="befund__text" style="grid-column:1 / 9">
-      <h2 id="leistungen-titel">Drei Leistungen. Einzeln buchbar, meistens greifen sie ineinander.</h2>
-      <p class="vorspann" style="margin-top:24px;max-width:56ch">Alle drei laufen über Ihre eigenen Konten, alle drei enden in einem Monatsbericht. Wir fangen selten mit allen dreien gleichzeitig an.</p>
-    </div>
-  </div>
-</section>
-
-<section class="bahn beobachten" id="management" aria-labelledby="l1">
-  <div class="schiff raster">
-    <div class="bahn__ring">
-      <svg class="ring" viewBox="0 0 100 100" aria-hidden="true">
+    <div class="leistung auf liste">
+      <svg class="leistung__ring" viewBox="0 0 100 100" aria-hidden="true">
         <path class="seg seg--an" d="M67.61 6.42A47 47 0 0 1 81.45 84.93L71.75 74.15A32.5 32.5 0 0 0 62.17 19.87Z"/>
         <path class="seg" d="M72.87 85.22A42 42 0 0 1 8.41 55.85L17.82 54.52A32.5 32.5 0 0 0 67.7 77.26Z"/>
         <path class="seg" d="M3.01 49.18A47 47 0 0 1 60.57 4.2L57.31 18.33A32.5 32.5 0 0 0 17.5 49.43Z"/>
       </svg>
-      <span class="sr-only">Leistung eins von drei</span>
-    </div>
-    <p class="bahn__nr zahl" aria-hidden="true">01</p>
-    <div class="bahn__haupt">
-      <h3 id="l1">Social Media Management</h3>
-      <div class="bahn__text fliess">
-        <p>Wir übernehmen den Kanal vollständig: Plan, Produktion, Veröffentlichung, Antworten. Sie behalten die Freigabe und liefern das, was nur aus dem Betrieb kommen kann – Zugang zur Baustelle und zum fertigen Ergebnis.</p>
+      <div>
+        <h3>Social Media Management</h3>
+        <p>Wir übernehmen den Kanal komplett. Sie liefern nur, was aus dem Betrieb kommen muss – und geben frei.</p>
       </div>
-    </div>
-    <div class="bahn__liste">
-      <p class="label">Was konkret passiert</p>
-      <dl class="dl">
-        <div class="dl__zeile"><dt>Kanalaudit</dt><dd>Bestandsaufnahme von Profil, bisherigen Beiträgen und Einstellungen.</dd></div>
-        <div class="dl__zeile"><dt>Redaktionsplan</dt><dd>Feste Formate pro Woche, einen Monat im Voraus.</dd></div>
-        <div class="dl__zeile"><dt>Produktion &amp; Veröffentlichung</dt><dd>Schnitt, Text, Untertitel, Termin.</dd></div>
-        <div class="dl__zeile"><dt>Community-Antworten</dt><dd>Kommentare und Nachrichten, werktags.</dd></div>
-        <div class="dl__zeile"><dt>Monatsbericht</dt><dd>Drei Zahlen, die zu Anfragen führen. Und was nicht funktioniert hat.</dd></div>
-      </dl>
+      <ul>
+        <li>Redaktionsplan</li><li>Produktion</li><li>Veröffentlichung</li><li>Antworten</li><li>Monatsbericht</li>
+      </ul>
     </div>
 
-    <!-- Artefakt: Redaktionsplan -->
-    <div class="plan">
-      <h4 class="label">So sieht ein Monat aus</h4>
-      <div class="plan__raster" role="table" aria-label="Beispielhafter Redaktionsplan über vier Wochen">
-        <div class="plan__zelle plan__kopf" role="columnheader"></div>
-        <div class="plan__zelle plan__kopf" role="columnheader">Mo</div>
-        <div class="plan__zelle plan__kopf" role="columnheader">Di</div>
-        <div class="plan__zelle plan__kopf" role="columnheader">Mi</div>
-        <div class="plan__zelle plan__kopf" role="columnheader">Do</div>
-        <div class="plan__zelle plan__kopf" role="columnheader">Fr</div>
-        <div class="plan__zelle plan__kopf" role="columnheader">Sa</div>
-        <div class="plan__zelle plan__kopf" role="columnheader">So</div>
-
-        <div class="plan__woche" role="rowheader">W 1</div>
-        <div class="plan__zelle"><span class="chip chip--voll">Reel: Einbau</span></div>
-        <div class="plan__zelle"></div>
-        <div class="plan__zelle"><span class="chip chip--voll">Foto: Team bei der Arbeit</span></div>
-        <div class="plan__zelle"><span class="chip chip--kontur">Freigabe Wochenplan</span></div>
-        <div class="plan__zelle"><span class="chip chip--voll">Story: Werkstatt</span></div>
-        <div class="plan__zelle"></div>
-        <div class="plan__zelle"></div>
-
-        <div class="plan__woche" role="rowheader">W 2</div>
-        <div class="plan__zelle"><span class="chip chip--voll">Beitrag: abgeschlossenes Projekt</span></div>
-        <div class="plan__zelle"><span class="chip chip--kontur">Fotos von der Baustelle</span></div>
-        <div class="plan__zelle"></div>
-        <div class="plan__zelle"><span class="chip chip--voll">Reel: vorher / nachher</span></div>
-        <div class="plan__zelle"><span class="chip chip--kontur">Freigabe Anzeigenmotiv</span></div>
-        <div class="plan__zelle"></div>
-        <div class="plan__zelle"></div>
-
-        <div class="plan__woche" role="rowheader">W 3</div>
-        <div class="plan__zelle"><span class="chip chip--voll">Beitrag: häufige Kundenfrage</span></div>
-        <div class="plan__zelle"></div>
-        <div class="plan__zelle"><span class="chip chip--voll">Story: kurze Umfrage</span></div>
-        <div class="plan__zelle"><span class="chip chip--kontur">15 Min. Telefonat</span></div>
-        <div class="plan__zelle"><span class="chip chip--voll">Beitrag: neue Mitarbeiterin</span></div>
-        <div class="plan__zelle"></div>
-        <div class="plan__zelle"></div>
-
-        <div class="plan__woche" role="rowheader">W 4</div>
-        <div class="plan__zelle"><span class="chip chip--voll">Reel: Werkzeug erklärt</span></div>
-        <div class="plan__zelle"></div>
-        <div class="plan__zelle"><span class="chip chip--voll">Foto: Detail</span></div>
-        <div class="plan__zelle"><span class="chip chip--kontur">Freigabe Wochenplan</span></div>
-        <div class="plan__zelle"><span class="chip chip--voll">Monatsbericht</span></div>
-        <div class="plan__zelle"></div>
-        <div class="plan__zelle"></div>
-      </div>
-      <p class="legende">
-        <span><i class="voll" aria-hidden="true"></i> Grün gefüllt: das liefern wir.</span>
-        <span><i class="kontur" aria-hidden="true"></i> Nur Kontur: das brauchen wir von Ihnen.</span>
-      </p>
-      <p class="quelle">Schematische Darstellung eines typischen Monats, keine Messwerte.</p>
-    </div>
-  </div>
-</section>
-
-<section class="bahn bahn--gespiegelt beobachten" id="advertising" aria-labelledby="l2">
-  <div class="schiff raster">
-    <div class="bahn__ring">
-      <svg class="ring" viewBox="0 0 100 100" aria-hidden="true">
+    <div class="leistung auf">
+      <svg class="leistung__ring" viewBox="0 0 100 100" aria-hidden="true">
         <path class="seg" d="M67.61 6.42A47 47 0 0 1 81.45 84.93L71.75 74.15A32.5 32.5 0 0 0 62.17 19.87Z"/>
         <path class="seg seg--an" d="M72.87 85.22A42 42 0 0 1 8.41 55.85L17.82 54.52A32.5 32.5 0 0 0 67.7 77.26Z"/>
         <path class="seg" d="M3.01 49.18A47 47 0 0 1 60.57 4.2L57.31 18.33A32.5 32.5 0 0 0 17.5 49.43Z"/>
       </svg>
-      <span class="sr-only">Leistung zwei von drei</span>
-    </div>
-    <p class="bahn__nr zahl" aria-hidden="true">02</p>
-    <div class="bahn__haupt">
-      <h3 id="l2">Social Media Advertising</h3>
-      <div class="bahn__text fliess">
-        <p>Anzeigen auf Instagram und Facebook, ausgerichtet auf Ihr Einzugsgebiet und ausgewertet nach Anfragen. Das Werbebudget geht vollständig an Meta und läuft über Ihr eigenes Werbekonto.</p>
+      <div>
+        <h3>Social Media Advertising</h3>
+        <p>Anzeigen in Ihrem Einzugsgebiet, ausgewertet nach Anfragen statt nach Likes. Das Budget läuft über Ihr eigenes Werbekonto.</p>
       </div>
-    </div>
-    <div class="bahn__liste">
-      <p class="label">Was konkret passiert</p>
-      <dl class="dl">
-        <div class="dl__zeile"><dt>Zielgruppenaufbau</dt><dd>Radius, Alter, Interessen – auf Ihr Gebiet zugeschnitten.</dd></div>
-        <div class="dl__zeile"><dt>Anzeigenmotive</dt><dd>Mehrere Varianten, damit man vergleichen kann.</dd></div>
-        <div class="dl__zeile"><dt>Budgetsteuerung</dt><dd>Umschichten auf das, was Anfragen bringt.</dd></div>
-        <div class="dl__zeile"><dt>Leadstrecke</dt><dd>Vom Klick bis zur Nachricht, ohne Umwege.</dd></div>
-        <div class="dl__zeile"><dt>Auswertung</dt><dd>Nach Anfragen, nicht nach Likes.</dd></div>
-      </dl>
+      <ul>
+        <li>Zielgruppen</li><li>Motive</li><li>Budgetsteuerung</li><li>Auswertung</li>
+      </ul>
     </div>
 
-    <!-- Artefakt: Trichter als Tabelle -->
-    <div class="trichter">
-      <h4 class="label">Drei Stufen, drei Messgrößen</h4>
-      <table>
-        <thead>
-          <tr><th scope="col">Stufe</th><th scope="col">Was dort passiert</th><th scope="col">Woran wir messen</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td data-kopf="Stufe"><span class="stufe-nr"><span class="balken" style="width:64px;height:12px" aria-hidden="true"></span><span class="zahl">1 · Aufmerksamkeit</span></span></td>
-            <td data-kopf="Was dort passiert">Ihre Anzeige läuft im festgelegten Radius um Ihren Standort.</td>
-            <td data-kopf="Woran wir messen">Aufrufe und Reichweite im Einzugsgebiet</td>
-          </tr>
-          <tr>
-            <td data-kopf="Stufe"><span class="stufe-nr"><span class="balken" style="width:64px;height:6px" aria-hidden="true"></span><span class="zahl">2 · Interesse</span></span></td>
-            <td data-kopf="Was dort passiert">Wer stehen bleibt, klickt auf die Anzeige oder sieht sich das Profil an.</td>
-            <td data-kopf="Woran wir messen">Klicks und Profilbesuche</td>
-          </tr>
-          <tr>
-            <td data-kopf="Stufe"><span class="stufe-nr"><span class="balken" style="width:64px;height:3px" aria-hidden="true"></span><span class="zahl">3 · Anfrage</span></span></td>
-            <td data-kopf="Was dort passiert">Anruf, Nachricht oder ausgefülltes Formular.</td>
-            <td data-kopf="Woran wir messen">Anfragen und Kosten pro Anfrage</td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="quelle">Was wir nicht messen: Follower ohne Kaufabsicht.</p>
-      <p class="quelle">Quelle für alle Kampagnenzahlen: Meta Werbeanzeigenmanager, Werbekonto des Kunden.</p>
-    </div>
-  </div>
-</section>
-
-<section class="bahn beobachten" id="strategie" aria-labelledby="l3">
-  <div class="schiff raster">
-    <div class="bahn__ring">
-      <svg class="ring" viewBox="0 0 100 100" aria-hidden="true">
+    <div class="leistung auf">
+      <svg class="leistung__ring" viewBox="0 0 100 100" aria-hidden="true">
         <path class="seg" d="M67.61 6.42A47 47 0 0 1 81.45 84.93L71.75 74.15A32.5 32.5 0 0 0 62.17 19.87Z"/>
         <path class="seg" d="M72.87 85.22A42 42 0 0 1 8.41 55.85L17.82 54.52A32.5 32.5 0 0 0 67.7 77.26Z"/>
         <path class="seg seg--an" d="M3.01 49.18A47 47 0 0 1 60.57 4.2L57.31 18.33A32.5 32.5 0 0 0 17.5 49.43Z"/>
       </svg>
-      <span class="sr-only">Leistung drei von drei</span>
-    </div>
-    <p class="bahn__nr zahl" aria-hidden="true">03</p>
-    <div class="bahn__haupt">
-      <h3 id="l3">Wachstum &amp; Strategie</h3>
-      <div class="bahn__text fliess">
-        <p>Die Frage vor allen anderen: Wofür soll Ihr Betrieb im Netz stehen, und für wen? Daraus folgt, welcher Kanal überhaupt sinnvoll ist – manchmal ist die Antwort, einen wegzulassen.</p>
+      <div>
+        <h3>Wachstum &amp; Strategie</h3>
+        <p>Wofür Ihr Betrieb online stehen soll – und welcher Kanal sich dafür überhaupt lohnt. Manchmal ist die Antwort: einer weniger.</p>
       </div>
+      <ul>
+        <li>Positionierung</li><li>Wettbewerb</li><li>Quartalsziele</li><li>Nachsteuerung</li>
+      </ul>
     </div>
-    <div class="bahn__liste">
-      <p class="label">Was konkret passiert</p>
-      <dl class="dl">
-        <div class="dl__zeile"><dt>Positionierungsgespräch</dt><dd>Woher kommen Ihre Aufträge heute wirklich?</dd></div>
-        <div class="dl__zeile"><dt>Wettbewerbsblick</dt><dd>Was machen vergleichbare Betriebe in Ihrem Umkreis?</dd></div>
-        <div class="dl__zeile"><dt>Quartalsziele</dt><dd>Realistisch, überprüfbar, schriftlich.</dd></div>
-        <div class="dl__zeile"><dt>Kanalentscheidung</dt><dd>Lieber einer konsequent als vier halbherzig.</dd></div>
-        <div class="dl__zeile"><dt>Nachsteuerung</dt><dd>Was nicht wirkt, wird beendet, nicht schöngerechnet.</dd></div>
-      </dl>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- ========== IV — Ablauf ========== -->
-<section class="abschnitt schiff beobachten" id="ablauf" data-kolumne="IV — Ablauf" aria-labelledby="ablauf-titel">
-  <div class="raster">
-    <div class="kopfmarke">
-      <div class="stufe"><i></i><i></i><b></b></div>
-      <p class="kicker">IV — Ablauf</p>
+  <!-- Ablauf -->
+  <section class="breit block ohne-oben" id="ablauf" aria-labelledby="a-titel">
+    <div class="kopfgruppe kopfgruppe--eng"><p class="marke">Wie es läuft</p>
+    <h2 id="a-titel">Vom Anruf bis zum ersten Bericht.</h2>
     </div>
-    <div style="grid-column:1 / 9">
-      <h2 id="ablauf-titel">Woche 0 bis Monatsbericht.</h2>
-      <p class="vorspann" style="margin-top:24px;max-width:56ch">Damit Sie vorher wissen, was auf Sie zukommt – und ab wann Zahlen überhaupt etwas aussagen.</p>
+    <div class="ablauf auf liste">
+      <div class="schritt">
+        <p class="schritt__zeit">Erstgespräch</p>
+        <h3>Passt das?</h3>
+        <p>Zwanzig Minuten. Wir sehen uns vorher Ihre Kanäle an und sagen ehrlich, ob es sich lohnt.</p>
+      </div>
+      <div class="schritt">
+        <p class="schritt__zeit">Woche 1–2</p>
+        <h3>Plan und Termin</h3>
+        <p>Bestandsaufnahme, Zielgruppe, Redaktionsplan. Ein halber Tag vor Ort für Fotos und Videos.</p>
+      </div>
+      <div class="schritt">
+        <p class="schritt__zeit">Ab Woche 3</p>
+        <h3>Es läuft</h3>
+        <p>Wir produzieren und veröffentlichen, Sie geben frei. Anzeigen gehen live.</p>
+      </div>
+      <div class="schritt">
+        <p class="schritt__zeit">Monatlich</p>
+        <h3>Bericht</h3>
+        <p>Drei Zahlen, die zählen – und was nicht funktioniert hat. Dann steuern wir nach.</p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="register beobachten">
-  <div class="schiff">
-    <div class="register__band">
-      <div class="register__feld">
-        <p class="register__zeit">Woche 0</p>
-        <h3 class="register__titel">Erstgespräch</h3>
-        <p class="register__text">Zwanzig Minuten am Telefon oder per Video. Wir sehen uns vorher Ihre Kanäle an. Danach sagen wir, ob es passt – auch wenn die Antwort nein ist.</p>
-        <p class="register__aufwand">Für Sie heißt das: ein Termin, 20 Min.</p>
+  <!-- Klartext auf dunkler Fläche: der Rhythmuswechsel der Seite -->
+  <section class="dunkel block" id="klartext" aria-labelledby="k-titel">
+    <svg class="dunkel__ring" viewBox="0 0 100 100" aria-hidden="true">
+      <path d="M67.61 6.42A47 47 0 0 1 81.45 84.93L71.75 74.15A32.5 32.5 0 0 0 62.17 19.87Z"/>
+      <path d="M72.87 85.22A42 42 0 0 1 8.41 55.85L17.82 54.52A32.5 32.5 0 0 0 67.7 77.26Z"/>
+      <path d="M3.01 49.18A47 47 0 0 1 60.57 4.2L57.31 18.33A32.5 32.5 0 0 0 17.5 49.43Z"/>
+    </svg>
+    <div class="breit gestapelt">
+      <div class="kopfgruppe kopfgruppe--mittel"><p class="marke">Klartext</p>
+      <h2 id="k-titel">Das bekommen Sie. Das nicht.</h2>
       </div>
-      <div class="register__feld">
-        <p class="register__zeit">Woche 1–2</p>
-        <h3 class="register__titel">Audit und Plan</h3>
-        <p class="register__text">Bestandsaufnahme Ihrer Kanäle, Zielgruppe, Redaktionsplan für den ersten Monat. Dazu ein Termin vor Ort für Fotos und Videos.</p>
-        <p class="register__aufwand">Für Sie heißt das: ein halber Tag vor Ort, einmalig.</p>
-      </div>
-      <div class="register__feld">
-        <p class="register__zeit">ab Woche 3</p>
-        <h3 class="register__titel">Umsetzung</h3>
-        <p class="register__text">Produktion, Freigabe, Veröffentlichung. Anzeigen gehen live, sobald die ersten Motive freigegeben sind.</p>
-        <p class="register__aufwand">Für Sie heißt das: rund 10 Min. pro Woche.</p>
-      </div>
-      <div class="register__feld">
-        <p class="register__zeit">monatlich</p>
-        <h3 class="register__titel">Auswertung</h3>
-        <p class="register__text">Ein Bericht, drei Zahlen, die zählen, und die Nachsteuerung für den Folgemonat.</p>
-        <p class="register__aufwand">Für Sie heißt das: ein Termin im Monat, 20 Min.</p>
+      <div class="liste">
+        <div class="paar"><p class="paar__ja">Eine feste Ansprechperson mit Handynummer.</p><p class="paar__nein">Kein Ticketsystem.</p></div>
+        <div class="paar"><p class="paar__ja">Freigabe vor jedem Beitrag.</p><p class="paar__nein">Nichts über Ihren Betrieb, das Sie nicht gesehen haben.</p></div>
+        <div class="paar"><p class="paar__ja">Konten und Werbekonto laufen auf Ihren Namen.</p><p class="paar__nein">Keine geteilten Passwörter.</p></div>
+        <div class="paar"><p class="paar__ja">Nach der Startphase monatlich kündbar.</p><p class="paar__nein">Keine 24-Monats-Bindung.</p></div>
+        <div class="paar"><p class="paar__ja">Höchstens ein Betrieb pro Gewerk und Gebiet.</p><p class="paar__nein">Keine zwei Wettbewerber aus derselben Region.</p></div>
+        <div class="paar"><p class="paar__ja">Berichte, in denen auch die Fehlschläge stehen.</p><p class="paar__nein">Keine Zahlen ohne Quelle.</p></div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
 
-<section class="schiff beobachten" aria-labelledby="aufwand-titel">
-  <div class="raster" style="padding-top:24px">
-    <div class="fliess" style="grid-column:1 / 9">
-      <p class="quelle" style="font-size:.95rem;color:var(--tinte-2)">Vor Woche 5 gibt es keine belastbaren Zahlen. Wer Ihnen in Woche 2 Ergebnisse verspricht, misst etwas anderes.</p>
+  <!-- Belege -->
+  <section class="breit block" id="belege" aria-labelledby="b-titel">
+    <div class="kopfgruppe kopfgruppe--weit"><p class="marke">Wer mit uns arbeitet</p>
+    <h2 id="b-titel">Nur Betriebe, die zugestimmt haben.</h2>
     </div>
-    <div class="paare">
-      <h2 id="aufwand-titel" style="font-size:clamp(1.5rem,3vw,2.2rem)">Was wir übernehmen. Was bei Ihnen bleibt.</h2>
-      <div class="paar paar__kopf" style="margin-top:24px" aria-hidden="true">
-        <p class="label">Was wir übernehmen</p>
-        <p class="label">Was bei Ihnen bleibt</p>
-      </div>
-      <div class="paar"><p class="paar__ja">Ideen, Themen und Redaktionsplan</p><p class="paar__nein">Freigabe per Klick, rund 10 Min. pro Woche</p></div>
-      <div class="paar"><p class="paar__ja">Fotos und Videos vor Ort</p><p class="paar__nein">Ein Ansprechpartner, der uns auf die Baustelle lässt</p></div>
-      <div class="paar"><p class="paar__ja">Texte, Untertitel, Hashtags</p><p class="paar__nein">Fachliche Korrektur, wenn wir etwas falsch benennen</p></div>
-      <div class="paar"><p class="paar__ja">Anzeigenkonto, Zielgruppen, Budgetsteuerung</p><p class="paar__nein">Freigabe des Monatsbudgets</p></div>
-      <div class="paar"><p class="paar__ja">Monatsbericht und Nachsteuerung</p><p class="paar__nein">Ein Termin im Monat, 20 Min.</p></div>
-      <p class="summe">Ihr Aufwand im laufenden Monat: rund eine Stunde, plus die Zeit, die Sie uns auf der Baustelle geben.</p>
+    <p class="klein hinweis"><span class="platzhalter">Demo: Freigaben stehen noch aus</span></p>
+    <div class="liste--nah">
+      <div class="beleg"><strong>⟨Betrieb⟩</strong><span class="klein">Sanitär &amp; Heizung</span><span class="klein">Management</span><span class="klein">⟨MM/JJ⟩</span></div>
+      <div class="beleg"><strong>⟨Betrieb⟩</strong><span class="klein">Tischlerei</span><span class="klein">Management &amp; Ads</span><span class="klein">⟨MM/JJ⟩</span></div>
+      <div class="beleg"><strong>⟨Betrieb⟩</strong><span class="klein">Metallbau</span><span class="klein">Strategie</span><span class="klein">⟨MM/JJ⟩</span></div>
     </div>
-  </div>
-</section>
+    <p class="klein hinweis hinweis--breit">Wir zeigen keine Zahlen, die sich nicht aus dem Konto des Kunden exportieren lassen, und keine Logos ohne Freigabe.</p>
+  </section>
 
-<!-- ========== V — Belege ========== -->
-<section class="abschnitt schiff beobachten" id="belege" data-kolumne="V — Belege" aria-labelledby="belege-titel">
-  <div class="raster">
-    <div class="kopfmarke">
-      <div class="stufe"><i></i><i></i><b></b></div>
-      <p class="kicker">V — Belege</p>
+  <!-- Fragen -->
+  <section class="breit block ohne-oben" id="fragen" aria-labelledby="f-titel">
+    <div class="kopfgruppe kopfgruppe--eng"><p class="marke">Häufige Fragen</p>
+    <h2 id="f-titel">Was vorab meistens gefragt wird.</h2>
     </div>
-    <div style="grid-column:1 / 9">
-      <h2 id="belege-titel">Wer mit uns arbeitet.</h2>
-      <p class="vorspann" style="margin-top:24px;max-width:56ch">Wir nennen hier nur Betriebe, die der Nennung schriftlich zugestimmt haben. Deshalb ist die Liste kurz – und richtig.</p>
-      <p style="margin-top:24px"><span class="platzhalter">Demo-Stand: noch keine Freigaben erteilt</span></p>
+      <div class="liste">
+      <div class="frage"><h3>Was kostet das?</h3><p>Das hängt vom Einzugsgebiet ab – fünfzehn Kilometer Radius brauchen ein anderes Budget als achtzig. Die Spanne nennen wir im Erstgespräch. Ihr Werbebudget geht vollständig an Meta und wird von uns nicht angerechnet.</p></div>
+      <div class="frage"><h3>Wie lange sind wir gebunden?</h3><p>Nach der Startphase monatlich kündbar zum Monatsende. Eine 24-Monats-Bindung gibt es bei uns nicht.</p></div>
+      <div class="frage"><h3>Wie viel Zeit kostet uns das?</h3><p>Einmalig ein halber Tag vor Ort. Danach rund zehn Minuten pro Woche für Freigaben und ein Termin im Monat für den Bericht.</p></div>
+      <div class="frage"><h3>Wer hat Zugriff auf unsere Konten?</h3><p>Wir bekommen eine eigene Rolle im Meta Business Manager. Passwörter werden nicht geteilt, Konten und Inhalte bleiben Ihr Eigentum – auch nach Vertragsende.</p></div>
     </div>
+  </section>
 
-    <div class="satzregister">
-      <div class="satzregister__zeile satzregister__kopf" aria-hidden="true">
-        <p class="label">Betrieb</p><p class="label">Branche</p><p class="label">Bezogene Leistung</p><p class="label" style="text-align:right">Zeitraum</p>
+  <!-- Kontakt -->
+  <section class="kontakt block" id="kontakt" aria-labelledby="c-titel">
+    <div class="breit kontakt__innen">
+      <div>
+        <div class="kopfgruppe kopfgruppe--eng"><p class="marke erbt">Erstgespräch</p>
+        <h2 id="c-titel">Zwanzig Minuten. Danach wissen Sie, woran Sie sind.</h2>
+        </div>
+    <div class="liste--nah">
+          <p class="kontakt__punkt">Wir sehen uns vorher an, was auf Ihren Kanälen läuft.</p>
+          <p class="kontakt__punkt">Sie erzählen, woher Ihre Aufträge heute kommen.</p>
+          <p class="kontakt__punkt">Wir sagen, was wir machen würden – auch wenn die Antwort nein ist.</p>
+        </div>
       </div>
-      <div class="satzregister__zeile">
-        <p class="satzregister__betrieb">⟨Betrieb, Name nach Freigabe⟩</p>
-        <p class="meta">Sanitär, Heizung, Klima</p>
-        <p class="meta">Social Media Management</p>
-        <p class="satzregister__zeit">⟨MM/JJ⟩</p>
-      </div>
-      <div class="satzregister__zeile">
-        <p class="satzregister__betrieb">⟨Betrieb, Name nach Freigabe⟩</p>
-        <p class="meta">Tischlerei und Innenausbau</p>
-        <p class="meta">Management und Advertising</p>
-        <p class="satzregister__zeit">⟨MM/JJ⟩</p>
-      </div>
-      <div class="satzregister__zeile">
-        <p class="satzregister__betrieb">⟨Betrieb, Name nach Freigabe⟩</p>
-        <p class="meta">Metallbau und Zulieferung</p>
-        <p class="meta">Wachstum &amp; Strategie</p>
-        <p class="satzregister__zeit">⟨MM/JJ⟩</p>
-      </div>
-      <p class="haltung">Wir zeigen keine Zahlen, die wir nicht aus dem Konto des Kunden exportieren können, und keine Logos ohne Freigabe.</p>
-    </div>
-
-    <!-- Messregister -->
-    <div class="messregister">
-      <h2 style="font-size:clamp(1.5rem,3vw,2.2rem)">Worauf wir uns festlegen lassen.</h2>
-      <p class="meta" style="margin-top:8px;max-width:60ch">Bevor eine Zahl auf dieser Seite steht, gilt: Wir sagen, was sie bedeutet, woher sie kommt und wie oft wir sie erheben.</p>
-      <div class="messregister__zeile messregister__kopf" style="margin-top:24px" aria-hidden="true">
-        <p class="label">Begriff</p><p class="label">Definition, Quelle, Takt</p>
-      </div>
-      <div class="messregister__zeile">
-        <p class="messregister__begriff">Anfragen</p>
-        <div><p>Anruf, Nachricht oder ausgefülltes Formular, das aus einem Beitrag oder einer Anzeige kommt.</p><p class="quelle">Quelle: Meta Werbeanzeigenmanager und Ihre eigene Zählung im Büro · monatlich</p></div>
-      </div>
-      <div class="messregister__zeile">
-        <p class="messregister__begriff">Kosten pro Anfrage</p>
-        <div><p>Ausgegebenes Werbebudget geteilt durch die Zahl der Anfragen im selben Zeitraum.</p><p class="quelle">Quelle: Meta Werbeanzeigenmanager, Werbekonto des Kunden · monatlich</p></div>
-      </div>
-      <div class="messregister__zeile">
-        <p class="messregister__begriff">Profilbesuche</p>
-        <div><p>Aufrufe Ihres Instagram- oder Facebook-Profils, ausgelöst aus Beiträgen oder Anzeigen.</p><p class="quelle">Quelle: Meta Business Suite, Konto des Kunden · monatlich</p></div>
+      <div class="kontakt__wege">
+        <p class="marke erbt">Direkt erreichbar</p>
+        <p class="abstand-oben"><a class="link tel" href="tel:+490000000000">+49 ⟨000⟩ ⟨0000000⟩</a></p>
+        <p class="klein">Montag bis Freitag, 8 bis 17 Uhr</p>
+        <p class="liste--nah"><a class="link tel" href="mailto:kontakt@chatoria.de">kontakt@chatoria.de</a></p>
+        <p class="klein">Zwei Sätze reichen: was Sie machen und wo Sie sitzen.</p>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ========== VI — Klartext ========== -->
-<section class="abschnitt schiff beobachten" id="klartext" data-kolumne="VI — Klartext" aria-labelledby="klartext-titel">
-  <div class="raster">
-    <div class="kopfmarke">
-      <div class="stufe"><i></i><i></i><b></b></div>
-      <p class="kicker">VI — Klartext</p>
-    </div>
-    <div style="grid-column:1 / 9;margin-bottom:24px">
-      <h2 id="klartext-titel">Das bekommen Sie. Das bekommen Sie nicht.</h2>
-    </div>
-    <div class="klartext">
-      <div class="klartext__paar klartext__kopf" aria-hidden="true">
-        <p class="label">Das bekommen Sie</p><p class="label">Das bekommen Sie nicht</p>
-      </div>
-      <div class="klartext__paar"><p class="paar__ja">Eine feste Ansprechperson mit Handynummer.</p><p class="paar__nein">Kein Ticketsystem.</p></div>
-      <div class="klartext__paar"><p class="paar__ja">Freigabe vor jedem Beitrag.</p><p class="paar__nein">Keine Beiträge über Ihren Betrieb, die Sie nicht gesehen haben.</p></div>
-      <div class="klartext__paar"><p class="paar__ja">Einen Monatsbericht mit drei Zahlen, die zu Anfragen führen.</p><p class="paar__nein">Keine Screenshot-Sammlung ohne Aussage.</p></div>
-      <div class="klartext__paar"><p class="paar__ja">Werbekonto und Kanäle laufen auf Ihren Namen.</p><p class="paar__nein">Keine geteilten Passwörter – Zugriff ausschließlich über den Meta Business Manager.</p></div>
-      <div class="klartext__paar"><p class="paar__ja">Nach der Startphase monatlich kündbar.</p><p class="paar__nein">Keine 24-Monats-Bindung.</p></div>
-      <div class="klartext__paar"><p class="paar__ja">Höchstens ein Betrieb pro Gewerk und Einzugsgebiet.</p><p class="paar__nein">Keine zwei Wettbewerber aus derselben Region.</p></div>
-      <div class="klartext__paar"><p class="paar__ja">Berichte, in denen auch steht, was nicht funktioniert hat.</p><p class="paar__nein">Keine Berichte, die nur Erfolge zeigen.</p></div>
-      <div class="klartext__paar"><p class="paar__ja">Wir sagen ab, wenn wir nicht liefern können.</p><p class="paar__nein">Keine Versprechen über Reichweite in Zahlen.</p></div>
-    </div>
-
-    <div class="absage">
-      <h2 style="font-size:clamp(1.5rem,3vw,2.2rem)">Wann wir nicht der Richtige sind.</h2>
-      <p class="meta" style="margin-top:8px">Drei Fälle, in denen wir im Erstgespräch absagen.</p>
-      <div class="absage__fall" style="margin-top:24px">
-        <p class="absage__nr" aria-hidden="true">1</p>
-        <div><h3 style="font-size:1.4rem">Aus dem Betrieb kommt kein Material.</h3><p style="margin-top:8px;color:var(--tinte-2)">Wenn niemand bei Ihnen zehn Minuten Zeit hat, um uns auf die Baustelle oder in die Werkstatt zu lassen, entsteht nichts, was den Unterschied macht. Bilder aus einer Datenbank sehen aus wie Bilder aus einer Datenbank.</p></div>
-      </div>
-      <div class="absage__fall">
-        <p class="absage__nr" aria-hidden="true">2</p>
-        <div><h3 style="font-size:1.4rem">Ergebnisse werden in vier Wochen erwartet.</h3><p style="margin-top:8px;color:var(--tinte-2)">Der Aufbau eines Kanals braucht länger. Wenn der Druck so hoch ist, ist Werbung mit Budget der ehrlichere Weg – oder ein ganz anderer Kanal.</p></div>
-      </div>
-      <div class="absage__fall">
-        <p class="absage__nr" aria-hidden="true">3</p>
-        <div><h3 style="font-size:1.4rem">Gemessen werden soll die Followerzahl.</h3><p style="margin-top:8px;color:var(--tinte-2)">Follower kann man kaufen. Anfragen nicht. Wenn die Followerzahl die Zielgröße bleibt, arbeiten wir aneinander vorbei.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ========== VII — Fragen ========== -->
-<section class="abschnitt schiff beobachten" id="fragen" data-kolumne="VII — Fragen" aria-labelledby="fragen-titel">
-  <div class="raster">
-    <div class="kopfmarke">
-      <div class="stufe"><i></i><i></i><b></b></div>
-      <p class="kicker">VII — Fragen</p>
-    </div>
-    <div style="grid-column:1 / 9;margin-bottom:24px">
-      <h2 id="fragen-titel">Fragen, die vor dem ersten Gespräch kommen.</h2>
-    </div>
-    <div class="fragen">
-      <div class="frage"><h3 class="frage__f">„Was kostet das ungefähr?“</h3><p class="frage__a">Was ein sinnvolles Monatsbudget ist, hängt vom Einzugsgebiet ab – ein Betrieb mit fünfzehn Kilometer Radius braucht ein anderes Budget als einer mit achtzig. Wir nennen die Spanne im Erstgespräch, nicht auf der Website. Getrennt davon läuft Ihr Werbebudget: Es geht vollständig an Meta und wird von uns nicht angerechnet.</p></div>
-      <div class="frage"><h3 class="frage__f">„Wie lange sind wir gebunden?“</h3><p class="frage__a">Es gibt eine Startphase – lang genug, dass Audit, Plan und die ersten Produktionen aufgehen. Danach ist monatlich zum Monatsende kündbar. Eine 24-Monats-Bindung gibt es bei uns nicht.</p></div>
-      <div class="frage"><h3 class="frage__f">„Wer hat Zugriff auf unsere Konten?“</h3><p class="frage__a">Sie geben uns über den Meta Business Manager eine eigene Rolle in Ihrem Konto. Passwörter werden nicht geteilt. Werbekonto und Kanäle laufen auf Ihren Namen – Sie bleiben Eigentümer, auch nach Vertragsende. Den Zugang entziehen Sie jederzeit selbst, ohne uns zu fragen.</p></div>
-      <div class="frage"><h3 class="frage__f">„Wie viel Zeit kostet uns das?“</h3><p class="frage__a">Einmalig einen halben Tag vor Ort für Fotos und Videos. Danach rund zehn Minuten pro Woche für Freigaben und einen Termin im Monat für den Bericht. Alles andere liegt bei uns.</p></div>
-      <div class="frage"><h3 class="frage__f">„Wann sehen wir Ergebnisse?“</h3><p class="frage__a">Vor Woche 5 gibt es keine belastbaren Zahlen. Wer Ihnen in Woche 2 Ergebnisse verspricht, misst etwas anderes – zum Beispiel Reichweite, die niemand angefragt hat. Ab dem zweiten Monatsbericht lässt sich ein Verlauf lesen.</p></div>
-      <div class="frage"><h3 class="frage__f">„Was passiert mit unseren Daten?“</h3><p class="frage__a">Wir schließen einen Auftragsverarbeitungsvertrag nach Art. 28 DSGVO, bevor wir das erste Mal auf ein Konto zugreifen. Ihre Inhalte und Zugänge werden ausschließlich für Ihr Konto verwendet. Diese Website selbst lädt keine externen Ressourcen und setzt keine Cookies.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ========== VIII — Die Farbseite ========== -->
-<section class="farbseite abschnitt beobachten" id="team" data-kolumne="VIII — Wer dahintersteht" aria-labelledby="team-titel">
-  <svg class="farbseite__ring" viewBox="0 0 100 100" aria-hidden="true">
-    <path d="M67.61 6.42A47 47 0 0 1 81.45 84.93L71.75 74.15A32.5 32.5 0 0 0 62.17 19.87Z"/>
-    <path d="M72.87 85.22A42 42 0 0 1 8.41 55.85L17.82 54.52A32.5 32.5 0 0 0 67.7 77.26Z"/>
-    <path d="M3.01 49.18A47 47 0 0 1 60.57 4.2L57.31 18.33A32.5 32.5 0 0 0 17.5 49.43Z"/>
-  </svg>
-  <div class="schiff raster">
-    <div class="kopfmarke">
-      <div class="stufe"><i></i><i></i><b></b></div>
-      <p class="kicker">VIII — Wer dahintersteht</p>
-    </div>
-    <div class="farbseite__text">
-      <h2 id="team-titel">Wer an Ihrem Konto arbeitet.</h2>
-      <div class="fliess" style="margin-top:24px">
-        <p>Chatoria ist klein, und das ist eine Entscheidung. An Ihrem Konto arbeitet dieselbe Person, die im Erstgespräch am Telefon war – vom Redaktionsplan bis zum Monatsbericht. Sie bekommen ihre Durchwahl und ihre Handynummer, nicht eine Sammeladresse.</p>
-        <p>Wir betreuen bewusst nur eine begrenzte Zahl von Kunden gleichzeitig. Der Grund ist unspektakulär: Wer zwanzig Konten nebenher führt, produziert für alle dasselbe. Und wir nehmen höchstens einen Betrieb pro Gewerk und Einzugsgebiet – wer bei uns ist, konkurriert nicht mit dem Nachbarn aus unserem eigenen Kundenstamm.</p>
-      </div>
-    </div>
-    <div class="farbseite__fakten">
-      <p class="label" style="color:inherit">Der Rahmen</p>
-      <dl class="dl">
-        <div class="dl__zeile"><dt>Sitz und Rechtsform</dt><dd>⟨Firmierung⟩, ⟨PLZ Ort⟩. Eingetragen im ⟨Register⟩, ⟨Nummer⟩.</dd></div>
-        <div class="dl__zeile"><dt>Ansprechperson</dt><dd>⟨Vor- und Nachname⟩, namentlich, von Anfang an.</dd></div>
-        <div class="dl__zeile"><dt>Sprache</dt><dd>Deutsch. Verträge, Berichte und Abstimmung.</dd></div>
-        <div class="dl__zeile"><dt>Erreichbarkeit</dt><dd>Montag bis Freitag, 8 bis 17 Uhr. Rückmeldung werktags kurzfristig.</dd></div>
-        <div class="dl__zeile"><dt>Einstieg</dt><dd>Erstgespräch, danach Audit und Plan. Erst dann ein Angebot.</dd></div>
-        <div class="dl__zeile"><dt>Laufzeit</dt><dd>Startphase ⟨Dauer⟩, danach monatlich kündbar zum Monatsende.</dd></div>
-        <div class="dl__zeile"><dt>Werbebudget</dt><dd>Geht vollständig an Meta. Wird von uns nicht angerechnet.</dd></div>
-        <div class="dl__zeile"><dt>Zugriff auf Ihre Konten</dt><dd>Eigene Rolle im Meta Business Manager Ihres Unternehmens. Keine geteilten Passwörter.</dd></div>
-        <div class="dl__zeile"><dt>Eigentum</dt><dd>Werbekonto, Kanäle und Inhalte laufen auf Ihren Namen. Auch nach Vertragsende.</dd></div>
-        <div class="dl__zeile"><dt>Auftragsverarbeitung</dt><dd>Vertrag nach Art. 28 DSGVO, unterschrieben vor dem ersten Zugriff.</dd></div>
-      </dl>
-    </div>
-  </div>
-</section>
-
-<!-- ========== IX — Erstgespräch ========== -->
-<section class="anruf abschnitt beobachten" id="erstgespraech" data-kolumne="IX — Erstgespräch" aria-labelledby="anruf-titel">
-  <div class="schiff raster" style="position:relative">
-    <div class="kopfmarke">
-      <div class="stufe"><i></i><i></i><b></b></div>
-      <p class="kicker">IX — Erstgespräch</p>
-    </div>
-    <div class="anruf__titel">
-      <h2 id="anruf-titel" style="font-size:clamp(2.2rem,7vw,6rem);line-height:1">Ein Gespräch. Zwanzig Minuten. Danach wissen Sie, woran Sie sind.</h2>
-    </div>
-    <div class="anruf__kontakt">
-      <p class="label" style="color:inherit">Direkt erreichbar</p>
-      <a class="link anruf__nummer" href="tel:+490000000000">+49 ⟨000⟩ ⟨0000000⟩</a>
-      <p class="meta" style="color:var(--tinte-2);margin-top:4px">Montag bis Freitag, 8 bis 17 Uhr. Es geht direkt jemand ran, der die Kanäle betreut.</p>
-      <a class="link anruf__nummer" style="margin-top:24px" href="mailto:kontakt@chatoria.de">kontakt@chatoria.de</a>
-      <p class="meta" style="color:var(--tinte-2);margin-top:4px">Zwei Sätze reichen: was Sie machen und wo Sie sitzen.</p>
-      <p class="anruf__hinweis">Erstgespräch, 20 Minuten, kostenlos.</p>
-    </div>
-    <div class="anruf__punkte">
-      <p class="label" style="color:inherit;margin-bottom:8px">Was im Erstgespräch passiert</p>
-      <p class="anruf__punkt">Wir sehen uns vorher an, was auf Ihren Kanälen läuft.</p>
-      <p class="anruf__punkt">Sie erzählen, woher Ihre Aufträge heute kommen.</p>
-      <p class="anruf__punkt">Wir sagen, was wir machen würden – und in welcher Reihenfolge.</p>
-      <p class="anruf__punkt">Sie bekommen eine Einschätzung, ob sich das für Ihren Betrieb rechnet. Auch wenn die Antwort nein ist.</p>
-    </div>
-  </div>
-</section>
+  </section>
 
 </main>
 
-<!-- ========== Kolophon ========== -->
-<footer class="kolophon schiff">
-  <div class="raster">
-    <div class="kolophon__sp">
-      <h2>Kontakt</h2>
-      <p>⟨Firmierung⟩<br>⟨Straße und Hausnummer⟩<br>⟨PLZ Ort⟩</p>
-      <p style="margin-top:8px"><a class="link" href="tel:+490000000000">+49 ⟨000⟩ ⟨0000000⟩</a><br><a class="link" href="mailto:kontakt@chatoria.de">kontakt@chatoria.de</a></p>
+<footer class="fuss breit">
+  <div class="fuss__reihe">
+    <div>
+      <h2>Chatoria</h2>
+      <p class="klein fuss-text">Social-Media-Betreuung für Handwerksbetriebe und mittelständische Unternehmen in Deutschland.</p>
+      <p class="klein abstand-oben">Diese Website setzt keine Cookies und lädt keine externen Inhalte ohne Ihre Einwilligung.</p>
     </div>
-    <div class="kolophon__sp">
-      <h2>Leistungen</h2>
-      <ul>
-        <li><a class="link" href="#management">Social Media Management</a></li>
-        <li><a class="link" href="#advertising">Social Media Advertising</a></li>
-        <li><a class="link" href="#strategie">Wachstum &amp; Strategie</a></li>
-        <li><a class="link" href="#ablauf">Ablauf</a></li>
-        <li><a class="link" href="#fragen">Fragen</a></li>
+    <div>
+      <h2>Kontakt</h2>
+      <ul class="klein">
+        <li>⟨Firmierung⟩</li>
+        <li>⟨Straße⟩, ⟨PLZ Ort⟩</li>
+        <li><a class="link" href="tel:+490000000000">+49 ⟨000⟩ ⟨0000000⟩</a></li>
+        <li><a class="link" href="mailto:kontakt@chatoria.de">kontakt@chatoria.de</a></li>
       </ul>
     </div>
-    <div class="kolophon__sp">
+    <div>
       <h2>Rechtliches</h2>
-      <ul>
+      <ul class="klein">
         <li><a class="link" href="impressum.html">Impressum</a></li>
         <li><a class="link" href="datenschutz.html">Datenschutzerklärung</a></li>
+        <li><button type="button" class="link" id="consent-neu">Cookie-Einstellungen</button></li>
       </ul>
     </div>
-    <div class="kolophon__sp">
-      <h2>Chatoria</h2>
-      <p>Chatoria betreut Instagram- und Facebook-Kanäle für Handwerksbetriebe und mittelständische Unternehmen in Deutschland: Redaktionsplan, Produktion, Anzeigen und ein Monatsbericht, der auch zeigt, was nicht funktioniert hat.</p>
-      <p style="margin-top:8px">Diese Website lädt keine externen Ressourcen, setzt keine Cookies und verwendet keine Analyse-Skripte. Deshalb finden Sie hier auch kein Cookie-Banner.</p>
-    </div>
-    <div class="kolophon__fuss">
-      <span class="kolophon__marke">
-        <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true" style="fill:var(--gruen)">
-          <path d="M67.61 6.42A47 47 0 0 1 81.45 84.93L71.75 74.15A32.5 32.5 0 0 0 62.17 19.87Z"/>
-          <path d="M72.87 85.22A42 42 0 0 1 8.41 55.85L17.82 54.52A32.5 32.5 0 0 0 67.7 77.26Z"/>
-          <path d="M3.01 49.18A47 47 0 0 1 60.57 4.2L57.31 18.33A32.5 32.5 0 0 0 17.5 49.43Z"/>
-        </svg>
-        Chatoria
-      </span>
-      <span>© 2026</span>
-    </div>
+  </div>
+  <div class="fuss__unten">
+    <span>© 2026 Chatoria</span>
+    <span>Gestaltung und Umsetzung: Hoover Webdesign</span>
   </div>
 </footer>
 
-<script src="assets/js/app.js?v=20260821"></script>
+<!-- Einwilligungsbanner: steuert externe Inhalte, die spaeter dazukommen -->
+<aside class="consent" id="consent" role="dialog" aria-modal="false" aria-labelledby="consent-titel" data-offen="false" hidden>
+  <div class="breit consent__innen">
+    <div>
+      <h2 id="consent-titel">Externe Inhalte</h2>
+      <p>Diese Website funktioniert ohne Cookies und ohne Analyse-Werkzeuge. Nur wenn Sie zustimmen, dürfen wir externe Inhalte wie einen Instagram-Feed oder eine Karte nachladen – dabei erfährt der jeweilige Anbieter Ihre IP-Adresse. Sie können das jederzeit im Fußbereich ändern. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+    </div>
+    <div class="consent__knoepfe">
+      <button type="button" class="consent__nein" id="consent-nein">Nur notwendige</button>
+      <button type="button" class="consent__ja" id="consent-ja">Externe Inhalte erlauben</button>
+    </div>
+  </div>
+</aside>
+
+<script src="assets/js/app.js?v=20260822"></script>
 </body>
 </html>
